@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.13.1",
+    "normalize.css": "^3.0.3",
     "purecss": "^0.6.0"
   },
   "devDependencies": {
