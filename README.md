@@ -1,2 +1,3 @@
-# kickstart
-Boilerplate templates for various types of projects
+# Kickstart templates
+
+Some bare minimal templates to help me get started with various projects.
