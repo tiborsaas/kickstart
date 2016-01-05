@@ -36,6 +36,9 @@ gulp.task('sass', function () {
 gulp.task('js', function () {
 	gulp.src('./js/*.js')
 	.pipe(uglify())
+	.on('error', function (e) {
+		console.log(e)
+	})
 	.pipe(concat('flat.js'))
 	.pipe(gulp.dest('./dist'));
 });
